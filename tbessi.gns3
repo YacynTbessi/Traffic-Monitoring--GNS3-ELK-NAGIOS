@@ -721,70 +721,6 @@
                     }
                 ],
                 "suspend": false
-            },
-            {
-                "filters": {},
-                "link_id": "542a8c7a-7122-40d0-acd5-0c6e6a816c9d",
-                "link_style": {},
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": -6,
-                            "y": 36
-                        },
-                        "node_id": "580b5abc-6988-4f20-b1ea-7c3d15c8f27b",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f0/1",
-                            "x": 72,
-                            "y": 15
-                        },
-                        "node_id": "b0f011da-201e-4e65-b431-a82f0a574a73",
-                        "port_number": 1
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
-                "link_id": "0a441915-ddcd-4cf7-a1f6-25746bfe58f7",
-                "link_style": {},
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": -4,
-                            "y": 44
-                        },
-                        "node_id": "07da9dc9-5226-42fe-a807-41e8415a9bfb",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "f1/0",
-                            "x": 70,
-                            "y": 7
-                        },
-                        "node_id": "b0f011da-201e-4e65-b431-a82f0a574a73",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
             }
         ],
         "nodes": [
@@ -1770,87 +1706,11 @@
                 "x": -616,
                 "y": 238,
                 "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": null,
-                "console_auto_start": false,
-                "console_type": "none",
-                "custom_adapters": [],
-                "first_port_name": "",
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "XI-1",
-                    "x": 14,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "XI-1",
-                "node_id": "580b5abc-6988-4f20-b1ea-7c3d15c8f27b",
-                "node_type": "vmware",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "adapter_type": "e1000",
-                    "adapters": 1,
-                    "headless": false,
-                    "linked_clone": false,
-                    "on_close": "power_off",
-                    "usage": "",
-                    "use_any_adapter": false,
-                    "vmx_path": "C:\\Users\\yvcyn\\OneDrive\\Documents\\Virtual Machines\\XI\\XI.vmx"
-                },
-                "symbol": ":/symbols/vmware_guest.svg",
-                "template_id": "ffaefda5-b845-4931-815e-eb300d2c21b1",
-                "width": 65,
-                "x": 494,
-                "y": -374,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": null,
-                "console_auto_start": false,
-                "console_type": "none",
-                "custom_adapters": [],
-                "first_port_name": "",
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "nagiosmonitoring-3",
-                    "x": -34,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "nagiosmonitoring-3",
-                "node_id": "07da9dc9-5226-42fe-a807-41e8415a9bfb",
-                "node_type": "vmware",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "adapter_type": "e1000",
-                    "adapters": 1,
-                    "headless": false,
-                    "linked_clone": false,
-                    "on_close": "power_off",
-                    "usage": "",
-                    "use_any_adapter": true,
-                    "vmx_path": "C:\\Users\\yvcyn\\OneDrive\\Documents\\Virtual Machines\\nagiosmonitoring\\nagiosmonitoring.vmx"
-                },
-                "symbol": ":/symbols/vmware_guest.svg",
-                "template_id": "58536954-e70e-48c4-ae60-b6e2fea7feeb",
-                "width": 65,
-                "x": 422,
-                "y": -432,
-                "z": 1
             }
         ]
     },
     "type": "topology",
     "variables": null,
     "version": "2.2.43",
-    "zoom": 50
+    "zoom": 35
 }
